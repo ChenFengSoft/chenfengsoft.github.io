@@ -1,0 +1,56 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #EDEDED;
+}
+
+.appContainer {
+    height: 8rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin-bottom: 0.1rem;
+    font-size: 1rem;
+}
+
+.appIcon {
+    width: 6.5rem;
+    height: 6.5rem;
+}
+
+.appInfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 1rem;
+    height: 8rem;
+}
+
+.appTitle {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.appSize {
+    font-size: 1.2rem;
+}
+
+.appVersion {
+    font-size: 1.2rem;
+}
+
+.appDownload {
+    float: right;
+    width: 10rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #2DB900;
+    color: #FEFEF9;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}

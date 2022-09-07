@@ -245,7 +245,8 @@ async function createPeerConnection() {
       //   username: "admin",
       //   credential: "123456"
       // },
-      { urls: "stun:stun.l.google.com:19302" },
+      { urls: "turn:119.45.33.114:3478", username: "admin", credential: "123456" }
+      // { urls: "stun:stun.l.google.com:19302" },
       // { urls: "turn:0.peerjs.com:3478", username: "peerjs", credential: "peerjsp" }
     ]
   });

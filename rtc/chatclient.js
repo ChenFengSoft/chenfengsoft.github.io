@@ -13,7 +13,7 @@
 
 // Get our hostname
 
-var myHostname = window.location.hostname;
+var myHostname = "119.45.33.114";
 if (!myHostname) {
   myHostname = "localhost";
 }

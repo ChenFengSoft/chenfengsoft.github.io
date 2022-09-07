@@ -13,8 +13,7 @@
 
 // Get our hostname
 
-// var myHostname = window.location.hostname;
-var myHostname = "119.45.33.114";
+var myHostname = window.location.hostname;
 if (!myHostname) {
   myHostname = "localhost";
 }
@@ -238,14 +237,16 @@ async function createPeerConnection() {
 
   myPeerConnection = new RTCPeerConnection({
     iceServers: [     // Information about ICE servers - Use your own!
-      {
-        urls: ["stun:stun.l.google.com:19302"],  // TODO:  A STUN server
-      },
-      {
-        urls: ["turn:119.45.33.114:3478"],  // TODO:  A TURN server
-        username: "admin",
-        credential: "123456"
-      },
+      // {
+      //   urls: ["stun:stun.l.google.com:19302"],  // STUN server
+      // },
+      // {
+      //   urls: ["turn:119.45.33.114:3478"],  // TURN server
+      //   username: "admin",
+      //   credential: "123456"
+      // },
+      { urls: "stun:stun.l.google.com:19302" },
+      { urls: "turn:0.peerjs.com:3478", username: "peerjs", credential: "peerjsp" }
     ]
   });
 

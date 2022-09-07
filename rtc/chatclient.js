@@ -246,7 +246,7 @@ async function createPeerConnection() {
       //   credential: "123456"
       // },
       { urls: "stun:stun.l.google.com:19302" },
-      { urls: "turn:0.peerjs.com:3478", username: "peerjs", credential: "peerjsp" }
+      // { urls: "turn:0.peerjs.com:3478", username: "peerjs", credential: "peerjsp" }
     ]
   });
 

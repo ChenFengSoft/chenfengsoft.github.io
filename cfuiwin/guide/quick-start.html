@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Quick Start | CFUIWin0</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/assets/css/0.styles.21ec9f47.css" as="style"><link rel="preload" href="/assets/js/app.67de0f46.js" as="script"><link rel="preload" href="/assets/js/2.c089627b.js" as="script"><link rel="preload" href="/assets/js/12.97344da2.js" as="script"><link rel="prefetch" href="/assets/js/10.c553be45.js"><link rel="prefetch" href="/assets/js/11.f4380c50.js"><link rel="prefetch" href="/assets/js/3.aeb996bf.js"><link rel="prefetch" href="/assets/js/4.09616552.js"><link rel="prefetch" href="/assets/js/5.e444cd04.js"><link rel="prefetch" href="/assets/js/6.0ace93fe.js"><link rel="prefetch" href="/assets/js/7.3aef2d55.js"><link rel="prefetch" href="/assets/js/8.53708a0a.js"><link rel="prefetch" href="/assets/js/9.212bdaf7.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.21ec9f47.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">CFUIWin0</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Guide</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/quick-start.html" aria-current="page" class="active sidebar-link">Quick Start</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Component</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h3 id="quick-start"><a href="#quick-start" class="header-anchor">#</a> Quick Start</h3> <h1 id="cf-ui-win"><a href="#cf-ui-win" class="header-anchor">#</a> cf-ui-win</h1> <p>基于 Vue2 的 Windows 风格 Web 组件库</p> <h3 id="安装"><a href="#安装" class="header-anchor">#</a> 安装</h3> <div style="background-color:#1e1e1e;"><div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">npm</span> <span class="token function">install</span> cf-ui-win
+</code></pre></div></div> <h3 id="使用说明"><a href="#使用说明" class="header-anchor">#</a> 使用说明</h3> <div style="background-color:#1e1e1e;"><div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">// 全部引用</span>
+<span class="token keyword">import</span> CfUiWin <span class="token keyword">from</span> <span class="token string">&quot;cf-ui-win/lib/index/index.js&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token string">&quot;cf-ui-win/lib/index/index.css&quot;</span><span class="token punctuation">;</span>
+Vue<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>CfUiWin<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 按需引用</span>
+<span class="token keyword">import</span> CfButton <span class="token keyword">from</span> <span class="token string">&quot;cf-ui-win/lib/button/index.js&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token string">&quot;cf-ui-win/lib/button/index.css&quot;</span><span class="token punctuation">;</span>
+Vue<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>CfButton<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></div> <h3 id="许可"><a href="#许可" class="header-anchor">#</a> 许可</h3> <p><a href="https://couto.mit-license.org/" target="_blank" rel="noopener noreferrer">MIT<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/component/button/button.html">
+        Button
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.67de0f46.js" defer></script><script src="/assets/js/2.c089627b.js" defer></script><script src="/assets/js/12.97344da2.js" defer></script>
+  </body>
+</html>
